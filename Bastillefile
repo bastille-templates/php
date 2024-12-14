@@ -20,4 +20,4 @@ CMD printf '<?php phpinfo(); ?>\n\n' > /usr/local/www/apache24/data/info.php
 # enable and start php-fpm
 SYSRC php_fpm_enable=YES
 SERVICE php_fpm start
-SERVICE apache24 start
+SERVICE apache24 restart
