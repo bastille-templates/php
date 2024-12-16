@@ -1,7 +1,7 @@
 ## Now apply template to container
 ```sh
-bastille bootstrap https://github.com/bastille-templates/php
-bastille template php bastille-templates/php
+bastille bootstrap https://github.com/bastille-templates/php-apache
+bastille template php-apache bastille-templates/php-apache
 ```
 
 ## License
