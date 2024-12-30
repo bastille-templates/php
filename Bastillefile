@@ -1,5 +1,7 @@
+ARG php_v=82
+
 # install required packages
-PKG php82
+PKG php${php_v}
 
 # copy files
 CP usr /
